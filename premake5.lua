@@ -1,7 +1,6 @@
 project "stb"
 	kind "StaticLib"
 	language "C"
-	staticruntime "off"
 
 	targetdir (outputOrigin .."/bin/" .. outputdir .. "/%{prj.name}")
 	objdir (outputOrigin .."/bin-int/" .. outputdir .. "/%{prj.name}")
